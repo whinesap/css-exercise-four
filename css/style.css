@@ -50,24 +50,46 @@ table {
 
 /*** custom CSS ***/
 
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
 }
 
-.container
-  .preview-baku { 
-  background-image: url(images/baku.jpg); }
-  
+.container {
+  margin: 20px auto;
+  width: 90%;
+}
 
-  .preview-london {
-  background-image: url(images/london.png); }
+div .preview-baku {
+    background-image: url(images/baku.jpg); 
+     }
   
+div .preview-london {
+    background-image: url(images/london.png); 
+      }
 
-  .preview-madrid {
-  background-image: url(images/madrid.png); }
+div .preview-madrid {
+    background-image: url(images/madrid.png); 
+      }
   
+div .preview-rome {
+    background-image: url(images/rome.jpg); 
+      }  
 
-  .preview-rome {
-  background-image: url(images/rome.jpg); }
-  
+@media screen and (min-width: 575px){
+    div {
+     margin: 1%;
+     width: 48%;
+   }
+ }  
+
+ @media screen and (min-width: 991px){
+  div {
+   margin: 1%;
+   width: 48%;
+ }
+} 
