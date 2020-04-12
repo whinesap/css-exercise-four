@@ -1,6 +1,6 @@
 body {
   background-color: #dadada;
   font-size: 10px;
-  background: url(images/baku.jpg), url(images/london.png), url(images/madrid.png), url(images/rome.jpg);
+  background: url(images/baku.jpg) url(images/london.png) url(images/madrid.png) url(images/rome.jpg);
 }
 
