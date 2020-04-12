@@ -73,7 +73,7 @@ body {
 }
 
 .preview baku {
-  background-image: url(images/baku.jpg);
+  content: url(images/baku.jpg);
 }
 
 @media screen and (min-width: 575px){
