@@ -77,6 +77,10 @@ div {
   display: inline-block
 }
 
+div.preview-baku 
+  .image {
+    content:url(images/baku.jpg);
+  }
 
 
 @media screen and (min-width: 575px){
