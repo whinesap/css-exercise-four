@@ -72,9 +72,12 @@ body {
   text-align: center;
 }
 
-div.preview-baku {
-  background: url(images/baku.jpg);
+div {
+  padding: 15px;
+  display: inline-block
 }
+
+
 
 @media screen and (min-width: 575px){
     div {
