@@ -65,29 +65,29 @@ body {
 }
 
 div .preview-baku {
-    background-image: url(images/baku.jpg); 
-     }
-  
+ background-image: url(images/baku.jpg); 
+}
+    
 div .preview-london {
     background-image: url(images/london.png); 
-      }
+}
 
 div .preview-madrid {
     background-image: url(images/madrid.png); 
-      }
+}
   
 div .preview-rome {
     background-image: url(images/rome.jpg); 
-      }  
+}  
 
 @media screen and (min-width: 575px){
     div {
      margin: 1%;
      width: 48%;
    }
- }  
+}  
 
- @media screen and (min-width: 991px){
+@media screen and (min-width: 991px){
   div {
    margin: 1%;
    width: 48%;
