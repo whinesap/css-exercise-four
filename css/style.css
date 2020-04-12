@@ -61,6 +61,7 @@ body {
 }
 
 
+
 .container {
   background-color: #b3b1b1;
   margin: 20px auto;
@@ -77,10 +78,9 @@ div {
   display: inline-block
 }
 
-div.image1 {
-  content:url(images/baku.jpg);
+.preview-baku {
+  background: url(images/baku.jpg);
 }
-
 
 @media screen and (min-width: 575px){
     div {
