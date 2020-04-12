@@ -66,21 +66,9 @@ body {
   width: 90%;
 }
 
-.container preview-baku {
- background-image: url(images/baku.jpg); 
+.container h1 {
+  text-align: center;
 }
-    
-.container preview-london {
-    background-image: url(images/london.png); 
-}
-
-.container preview-madrid {
-    background-image: url(images/madrid.png); 
-}
-  
-.container preview-rome {
-    background-image: url(images/rome.jpg); 
-}  
 
 @media screen and (min-width: 575px){
     div {
