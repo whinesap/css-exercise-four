@@ -55,18 +55,19 @@ body {
   font-size: 10px;
 }
 
-.preview-baku {
-  background: url(images/baku.jpg);
-}
+div 
+  .preview-baku { 
+  background: url(images/baku.jpg); }
+  
 
-.preview-london {
-  background: url(images/london.png);
-}
+  .preview-london {
+  background: url(images/london.png); }
+  
 
-.preview-madrid {
-  background: url(images/madrid.png);
-}
+  .preview-madrid {
+  background: url(images/madrid.png); }
+  
 
-.preview-rome {
-  background: url(images/rome.jpg);
-}
+  .preview-rome {
+  background: url(images/rome.jpg); }
+  
