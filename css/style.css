@@ -72,6 +72,10 @@ body {
   text-align: center;
 }
 
+.preview baku {
+  background-image: url(images/baku.jpg);
+}
+
 @media screen and (min-width: 575px){
     div {
      margin: 1%;
