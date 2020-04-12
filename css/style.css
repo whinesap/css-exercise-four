@@ -53,9 +53,20 @@ table {
 body {
   background-color: #dadada;
   font-size: 10px;
-  background: url(images/baku.jpg);
-  background: url(images/london.png);
-  background: url(images/madrid.png);
-  background: url(images/rome.jpg);
 }
 
+.preview-baku {
+  background: url(images/baku.jpg);
+}
+
+.preview-london {
+  background: url(images/london.png);
+}
+
+.preview-madrid {
+  background: url(images/madrid.png);
+}
+
+.preview-rome {
+  url(images/rome.jpg);
+}
