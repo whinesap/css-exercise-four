@@ -54,44 +54,64 @@ table {
   box-sizing: border-box;
 }
 
-body {
-  background-color: #dadada;
-  font-size: 10px;
-  padding: 20px 25px;
-}
-
-
 
 .container {
   background-color: #b3b1b1;
-  margin: 20px auto;
   width: 90%;
-  padding: 20px 25px;
 }
+
 
 .container h1 {
   text-align: center;
+  padding: 20px;
+  margin: auto;
 }
 
 div {
-  padding: 15px;
-  display: inline-block
-}
-
-.preview-baku {
-  background: url(images/baku.jpg);
-}
-
-@media screen and (min-width: 575px){
-    div {
-     margin: 1%;
-     width: 48%;
-   }
+  width: 100%;
+  margin: 1%, 0;
+  overflow: hidden;
 }  
 
-@media screen and (min-width: 991px){
+div h1 {
+  float: left;
+  padding-left: 20px;
+}
+
+img {
+  margin: 20px, auto, 0, auto;
+  max-height: fit-content;
+  max-width: fit-content;
+
+
+}
+
+
+  @media screen and (min-width: 768px) {
+  
+
+
   div {
-   margin: 1%;
-   width: 48%;
- }
-} 
+    margin: 1%;
+    width: 48%;
+    float: left;
+  }
+
+
+img {
+  width: 100%;
+  height: 100%;
+ 
+}
+
+@media screen and (min-width: 991px) {
+
+  
+div {
+  width: 20%;
+  }  
+  
+img {
+    width: auto;
+  }
+}
