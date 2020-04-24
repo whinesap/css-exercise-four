@@ -54,11 +54,14 @@ table {
   box-sizing: border-box;
 }
 
+body {
+  align-content: center;
+}
 
 .container {
   background-color: #b3b1b1;
-  width: 90%;
-}
+  width: 100%;
+  align-content: center;}
 
 
 .container h1 {
@@ -68,9 +71,9 @@ table {
 }
 
 div {
-  width: 100%;
-  margin: 1%, 0;
-  overflow: hidden;
+  width: 375px;
+  height: 375px;
+  margin: 1%;
 }  
 
 div h1 {
@@ -78,40 +81,51 @@ div h1 {
   padding-left: 20px;
 }
 
-img {
-  margin: 20px, auto, 0, auto;
-  max-height: fit-content;
-  max-width: fit-content;
-
-
+.preview-baku {
+  background-image: url(../images/baku.jpg);
+  background-color: #cccccc;
+  background-size: cover;
 }
 
+.preview-london {
+  background-image: url(../images/london.png);
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+.preview-madrid {
+  background-image: url(../images/madrid.jpg);
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+.preview-rome {
+  background-image: url(../images/rome.jpg);
+  background-color: #cccccc;
+  background-size: cover;
+}
 
   @media screen and (min-width: 768px) {
   
 
 
   div {
-    margin: 1%;
-    width: 48%;
+    width: 300px;
+    height: 300px;
     float: left;
+    margin: 1%;
   }
 
-
-img {
-  width: 100%;
-  height: 100%;
  
 }
+
 
 @media screen and (min-width: 991px) {
 
   
 div {
-  width: 20%;
+  width: 250px;
+  height: 250px;
   }  
-  
-img {
-    width: auto;
-  }
+
 }
